@@ -2,6 +2,7 @@
 Este nivel cubre la sintaxis básica y las estructuras de control esenciales en Java.  
 
 ✅ **Conceptos básicos**  
+- Variables
 - Booleans  
 - Caracteres  
 - Enteros  
