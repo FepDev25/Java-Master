@@ -11,6 +11,10 @@ public class Empleado extends Persona {
         this.fechaIngreso = fechaIngreso;
     }
 
+    public Empleado() {
+        super();
+    }
+
     public Cargo getCargo() {
         return cargo;
     }
@@ -36,7 +40,7 @@ public class Empleado extends Persona {
 
     @Override
     public String toString() {
-        return "Empleado [persona=+"+ super.toString() + "cargo=" + cargo + ", fechaIngreso=" + fechaIngreso + "]";
+        return "Empleado [persona="+ super.toString() + "cargo=" + cargo + ", fechaIngreso=" + fechaIngreso + "]";
     }
     
 }

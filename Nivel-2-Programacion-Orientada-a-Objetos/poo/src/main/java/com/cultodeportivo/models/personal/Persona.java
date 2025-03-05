@@ -16,6 +16,9 @@ public abstract class Persona {
         this.direccion = direccion;
     }
 
+    public Persona() {
+    }
+
     public String getNombre() {
         return nombre;
     }

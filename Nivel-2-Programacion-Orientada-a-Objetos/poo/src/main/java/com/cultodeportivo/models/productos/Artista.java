@@ -13,6 +13,9 @@ public abstract class Artista {
         this.fechaNacimiento = fechaNacimiento;
         this.pais = pais;
     }
+    
+    public Artista() {
+    }
 
     public String getNombre() {
         return nombre;

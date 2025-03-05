@@ -9,6 +9,9 @@ public class Director {
         this.apellido = apellido;
     }
 
+    public Director() {
+    }
+
     public String getNombre() {
         return nombre;
     }

@@ -10,46 +10,6 @@ public class Pelicula implements Reproducible{
     private Director director;
     private int duracion;
     private GeneroPelicula genero;
-    @Override
-    public void adelantar() {
-        System.out.println("Adelantando la pelicula");
-    }
-
-    @Override
-    public void anterior() {
-        System.out.println("Retrocediendo la pelicula");
-    }
-
-    @Override
-    public void mostrarInfo() {
-        System.out.println("Titulo: " + titulo);
-        System.out.println("Director: " + director);
-        System.out.println("Duracion: " + duracion);
-        System.out.println("Genero: " + genero);
-        System.out.println("Anio: " + anio);
-        System.out.println("Actores: " + Arrays.toString(actores)); 
-    }
-
-    @Override
-    public void pausar() {
-        System.out.println("Pausando la pelicula");
-    }
-
-    @Override
-    public void rebobinar() {
-        System.out.println("Rebobinando la pelicula");
-    }
-
-    @Override
-    public void reproducir() {
-        System.out.println("Reproduciendo la pelicula");
-    }
-
-    @Override
-    public void siguiente() {
-        System.out.println("Siguiente la pelicula");
-    }
-
     private int anio;
     private Actor[] actores;
 
@@ -60,6 +20,9 @@ public class Pelicula implements Reproducible{
         this.genero = genero;
         this.anio = anio;
         this.actores = actores;
+    }
+
+    public Pelicula() {
     }
 
     public String getTitulo() {
@@ -108,6 +71,45 @@ public class Pelicula implements Reproducible{
 
     public void setActores(Actor[] actores) {
         this.actores = actores;
+    }
+
+    @Override
+    public void adelantar() {
+        System.out.println("Adelantando la pelicula");
+    }
+
+    @Override
+    public void anterior() {
+        System.out.println("Retrocediendo la pelicula");
+    }
+
+    @Override
+    public void mostrarInfo() {
+        System.out.println("Titulo: " + titulo);
+        System.out.println("Director: " + director);
+        System.out.println("Duracion: " + duracion);
+        System.out.println("Genero: " + genero);
+        System.out.println("Anio: " + anio);
+    }
+
+    @Override
+    public void pausar() {
+        System.out.println("Pausando la pelicula");
+    }
+
+    @Override
+    public void rebobinar() {
+        System.out.println("Rebobinando la pelicula");
+    }
+
+    @Override
+    public void reproducir() {
+        System.out.println("Reproduciendo la pelicula");
+    }
+
+    @Override
+    public void siguiente() {
+        System.out.println("Siguiente la pelicula");
     }
 
     @Override

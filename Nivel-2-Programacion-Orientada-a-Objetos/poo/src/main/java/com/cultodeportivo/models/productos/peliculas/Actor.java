@@ -14,6 +14,10 @@ public class Actor extends Artista{
         this.peliculas = peliculas;
     }
 
+    public Actor() {
+        super();
+    }
+
     public int getNumPeliculas() {
         return numPeliculas;
     }
