@@ -11,7 +11,7 @@ public class ManejoArchivos {
 
     // Método estático para crear un nuevo archivo
     public static void crearArchivo(String nombreArchivo) {
-        File archivo = new File(nombreArchivo);
+        File archivo = new File("fundamentos-java/src/main/resources/" + nombreArchivo);
         try {
             if (archivo.createNewFile()) {
                 System.out.println("Archivo creado correctamente: " + archivo.getName());
@@ -25,7 +25,7 @@ public class ManejoArchivos {
 
     // Método estático para leer el contenido de un archivo
     public static void leerArchivo(String nombreArchivo) {
-        File archivo = new File(nombreArchivo);
+        File archivo = new File("fundamentos-java/src/main/resources/" + nombreArchivo);
         try (BufferedReader br = new BufferedReader(new FileReader(archivo))) {
             String linea;
             System.out.println("Contenido del archivo " + nombreArchivo + ":");
@@ -39,7 +39,7 @@ public class ManejoArchivos {
 
     // Método estático para anexar texto a un archivo existente
     public static void anexarArchivo(String nombreArchivo, String texto) {
-        File archivo = new File(nombreArchivo);
+        File archivo = new File("fundamentos-java/src/main/resources/" + nombreArchivo);
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(archivo, true))) {
             bw.write(texto);
             bw.newLine();
@@ -51,7 +51,7 @@ public class ManejoArchivos {
 
     // Método estático para escribir texto en un archivo (sobrescribiendo su contenido)
     public static void escribirArchivo(String nombreArchivo, String texto) {
-        File archivo = new File(nombreArchivo);
+        File archivo = new File("fundamentos-java/src/main/resources/" + nombreArchivo);
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(archivo))) {
             bw.write(texto);
             System.out.println("Texto escrito correctamente en el archivo " + nombreArchivo);

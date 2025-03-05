@@ -19,7 +19,7 @@ public class ClaseSystem {
         System.err.println(); // Salto de línea para que la salida se vea más ordenada
 
         // Redirigiendo System.out a un archivo
-        PrintStream fileOut = new PrintStream("salida.txt");
+        PrintStream fileOut = new PrintStream("fundamentos-java/src/main/resources/salida.txt");
         System.setOut(fileOut); // Ahora System.out escribe en el archivo "salida.txt"
         System.out.println("Este mensaje irá al archivo salida.txt.");
 
