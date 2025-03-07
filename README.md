@@ -48,6 +48,10 @@ Este nivel cubre la sintaxis básica y las estructuras de control esenciales en 
 - Clases y métodos estáticos (`static`)  
 - Constantes y la palabra clave `final`  
 
+✅ **Temas avanzados**  
+- Sistema de números decimales (BigDecimal, DecimalFormat)
+- Formateo de texto (Formatter, String.format())
+- Validación de entradas (patrones regex básicos)
 ---
 
 ## **🔹 Nivel 2: Programación Orientada a Objetos (POO) en Java**  
@@ -77,6 +81,16 @@ Este nivel te permitirá estructurar código de manera eficiente.
 - JSON con Jackson y Gson  
 - XML con JAXB  
 
+✅ **Interfaces funcionales específicas
+- Comparator para comparación personalizada
+- BiFunction y BiConsumer para operaciones binarias
+- Predicate para validaciones complejas
+
+✅ **Buenas prácticas**  
+- Principio de responsabilidad única (SRP)
+- Principio abierto/cerrado (OCP)
+- Inversión de dependencias (DIP)
+
 ---
 
 ## **🔹 Nivel 3: Colecciones y estructuras de datos en Java**  
@@ -100,7 +114,22 @@ Aquí aprenderás a manejar y organizar datos de manera eficiente.
 ✅ **Genéricos (`Generics`)**  
 - Clases Genéricas  
 - Métodos Genéricos  
-- Wildcards (`? extends`, `? super`)  
+- Wildcards (`? extends`, `? super`)
+
+✅ **Interfaces útiles**  
+- CollectionUtils de Apache Commons
+- Iterables de Guava para operaciones avanzadas
+- StreamSupport.stream() para colecciones antiguas
+
+✅ **Estructuras especializadas**  
+- EnumMap y EnumSet para enums
+- WeakHashMap para cachés
+- ConcurrentHashMap para concurrencia
+
+✅ **Operaciones avanzadas**  
+- Particionamiento de colecciones
+- Transformación entre tipos de colección
+- Uso eficiente de Collections.sort()
 
 ---
 
@@ -113,6 +142,10 @@ Este nivel se enfoca en mejorar la legibilidad y eficiencia del código.
 ✅ **Interfaces funcionales (`Function`, `Predicate`, `Consumer`, `Supplier`)**  
 ✅ **Programación funcional avanzada (operaciones `map`, `filter`, `reduce`)**  
 
+✅ **Interfaces funcionales específicas:**  
+- UnaryOperator para transformaciones simples
+- BinaryOperator para combinaciones
+- Function especializados (ToIntFunction, ToDoubleFunction)
 ---
 
 ## **🔹 Nivel 5: Manejo de Archivos y Procesos**  
@@ -128,6 +161,15 @@ Aquí aprenderás a interactuar con archivos y procesos del sistema.
 - Crear y ejecutar procesos externos (`ProcessBuilder`)  
 - Redirección de entrada/salida  
 
+✅ **API moderna de archivos**  
+- Files.walk() y Files.find()
+- PathMatcher para búsqueda flexible
+- FileVisitor para procesamiento recursivo
+
+✅ **Procesos avanzados**  
+- Redirección de streams
+- Monitoreo de procesos
+- Gestión de recursos con ProcessHandle
 ---
 
 ## **🔹 Nivel 6: Hilos y Programación Concurrente**  
@@ -143,6 +185,21 @@ Aquí dominarás la ejecución en paralelo y optimización de procesos.
 - `CompletableFuture`  
 - `Locks`, `Semaphore`, `CountDownLatch`  
 
+✅ **Sincronización avanzada**  
+- ReentrantReadWriteLock
+- StampedLock para lectura optimista
+- Phaser para sincronización cíclica
+
+
+✅ **Concurrent Collections**  
+- CopyOnWriteArrayList
+- ConcurrentSkipListMap
+- ConcurrentLinkedQueue
+
+✅ **Patrones concurrentes**  
+- Producer-Consumer
+- Thread Pool patterns
+- Lock Striping
 ---
 
 ## **🔹 Nivel 7: Desarrollo de Interfaces Gráficas (GUI)**  
@@ -161,15 +218,23 @@ Aquí aprenderás a conectar Java con bases de datos.
 - Ejecutar consultas SQL desde Java  
 - Uso de `PreparedStatement` y `CallableStatement`  
 
----
+✅ **Características avanzadas**
+- Transacciones distribuidas
+- Connection pooling
+- Query optimization techniques
 
-## **🔹 Nivel 9: Programación Avanzada en Java**  
+---
+## **🔹 Nivel 9: Patrones de diseño en Java**  
+
+✅ **Patrones de Diseño (`Singleton`, `Factory`, `Observer`, etc.)**  
+
+
+## **🔹 Nivel 10: Programación Avanzada en Java**  
 Para dominar completamente el lenguaje.  
 
 ✅ **Manejo de Memoria y Garbage Collector**  
 ✅ **Uso de Módulos en Java (`module-info.java`)**  
 ✅ **Reflexión y Anotaciones**  
-✅ **Patrones de Diseño (`Singleton`, `Factory`, `Observer`, etc.)**  
 ✅ **Optimización y benchmarking (`JMH`)**  
 ✅ **Uso de bibliotecas comunes (`Guava`, `Apache Commons`, `Lombok`)**  
 ✅ **Llamar código nativo con JNI (Java Native Interface)**  
