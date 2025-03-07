@@ -76,21 +76,14 @@ Este nivel te permitirá estructurar código de manera eficiente.
 - Creación de Excepciones Personalizadas  
 - `try-with-resources`  
 
-✅ **Serialización y Deserialización**  
-- `ObjectInputStream` y `ObjectOutputStream`  
-- JSON con Jackson y Gson  
-- XML con JAXB  
-
-✅ **Interfaces funcionales específicas
+✅ **Interfaces funcionales específicas**
 - Comparator para comparación personalizada
 - BiFunction y BiConsumer para operaciones binarias
 - Predicate para validaciones complejas
 
-✅ **Buenas prácticas**  
-- Principio de responsabilidad única (SRP)
-- Principio abierto/cerrado (OCP)
-- Inversión de dependencias (DIP)
-
+✅ **Serialización y Deserialización**  
+- `ObjectInputStream` y `ObjectOutputStream`  
+- JSON con Jackson y Gson  
 ---
 
 ## **🔹 Nivel 3: Colecciones y estructuras de datos en Java**  
